@@ -9,12 +9,12 @@
     (click)="handleClick(i, service.price)"
   >
     <span class="service__name">{{service.name}}</span>
-    <span class="service__price">{{service.price}}</span>
+    <span class="service__price">{{ service.price | currency:'USD' }}</span>
   </div>
 
   <div class="container__total">
     <span>Total:</span>
-    <span>{{total}}</span>
+    <span>{{ total | currency:'USD' }}</span>
   </div>
 
 </div>

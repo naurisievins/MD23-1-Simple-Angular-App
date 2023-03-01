@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
 .container {
   display: flex;
   flex-direction: column;
@@ -12,6 +14,7 @@
 }
 
 .container__title {
+  font-family: 'Rubik Iso', cursive;
   margin: 0;
   padding: 0;
   font-size: 3rem;
@@ -21,14 +24,14 @@
   display: flex;
   justify-content: space-between;
   cursor: pointer;
-  background-color: rgb(158, 77, 122);
+  background-color: rgb(184, 76, 121);
   padding: 20px;
   width: 100%;
   &:hover {
     opacity: 0.7;
   }
   &--selected{
-    background-color: rgb(49, 117, 49);
+    background-color: rgb(65, 116, 65);
   }
 }
 
